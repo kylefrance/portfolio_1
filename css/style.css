@@ -1,0 +1,255 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { 
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	background-color: white;
+	font-family: 'Roboto', 'Oswald', 'Open Sans Condensed' sans-serif;
+	 margin: -0.1em;
+  	color: #222222;
+  	font-size: 1em;
+  	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+div {
+	display: block;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+.masthead-heading,
+.masthead-intro,
+.content-footer{
+  text-align: center;
+}
+.masthead{
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/9LCaI4D.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #06B219;
+}
+
+.masthead-intro{
+  /*Layout Declaration*/
+  margin-top: -0.1em;
+  margin-bottom: 0.5em;
+  /*Typography Declaration*/
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: -0.15em 0.07em 0.07em black;
+}
+
+.masthead-heading{
+  /*Layout Declaration*/
+  margin-top: -0.3em;
+  /*Typography Declaration*/
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffe0;
+  text-shadow: 0.085em 0.07em 0.04em black;
+  
+}
+
+
+.introduction-section,
+.location-section,
+.questions-section{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.content-footer > p {
+  color: white;
+  text-shadow: -0.1em 0.1em 0.02em black; 
+}
+
+.social > li{
+  display: inline-block;
+  margin: 0em 0.8em
+}
+
+.introduction-section > p,
+.location-section >p,
+.content-footer >p {
+  /* Typography Declaration*/
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2{
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #3BB211;
+  /*Layout*/
+  margin: 2em 0 1em 0;
+}
+
+section > h1{
+  margin-top: 2em;
+}
+
+.content-footer {
+  margin-top: 5em;
+  margin-bottom: -1em;
+  padding-top: 3.5em;
+  padding-bottom: 4em;
+  background-color: #3BB211;
+  background-size: cover;  
+}
+a:link {
+  text-decoration: none;
+  text-shadow: none;
+  color: #222222;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:hover {
+  color: #555555;
+}
+.line {
+	width: 55rem;
+}
+.header {
+	text-align: center;
+	margin: 13rem auto;
+}
+
+.header h1{
+	font-size: 5.8rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 100;
+	text-shadow: 0px 2px #6BFF6E;
+	letter-spacing: 0.4rem;
+}
+
+.header h2 {
+	font-size: 2rem;
+	letter-spacing: 0.04rem;
+	margin-left: 0.8rem;
+	font-variant: small-caps;
+	text-shadow: 0px 2px #349028;
+	margin-top: -0.47rem;
+}
+.projects {
+	margin: 0 auto;
+	width: 45rem;
+}
+.projects h1 {
+	margin: 8rem 0rem 1rem 1rem;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 4rem;
+	font-weight: 700;
+	text-shadow: 0px 2px #349028;
+}
+.projects h2 {
+	margin: 1rem 1rem 2rem 1.5rem;
+	font-size: 3rem;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	text-shadow: 0px 2px #467347;
+}
+.projects h3 {
+	text-align: right;
+	font-size: 3rem;
+	margin: 1rem 1.5rem 2rem 1rem;
+	clear: both;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	text-shadow: 0px 2px #467347;
+}
+.line2 {
+	margin-bottom: 8rem;
+}
+.hack img{
+	float: left;
+	margin: 0 6rem 8rem 1.5rem;
+	
+}
+
+.karma img {
+	float: right;
+	margin: 1rem 1rem 8rem 6rem;
+}
+
+.karma p {
+	margin-left: 1rem;
+}
+
+.hack ,.karma p {
+	font-size: 1.4rem;
+	letter-spacing: 0.115rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 100;
+	padding-top: 1rem;
+}
